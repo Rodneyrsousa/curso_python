@@ -20,7 +20,7 @@ pessoa = {
 #print(pessoa)
 #print(len(pessoa))
 #print(list(pessoa.keys()))
-#print(list(pessoa.values()))
+print(list(pessoa.values()))
 #print(list(pessoa.items()))
 #pessoa.setdefault('idade', 0)
 #print(pessoa['idade'])
