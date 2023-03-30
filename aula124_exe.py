@@ -14,7 +14,7 @@ perguntas = [
         'Pergunta': 'Quanto é 10/2?',
         'Opcoes': ['4','5','2','1'],
         'Resposta':'5',
-    },
+    }, 
 ]
 
 qtd_acertos = 0
