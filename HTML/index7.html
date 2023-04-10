@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        table{
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        tfoot td, tfoot th{
+            background-color: #ddd;
+            
+        }
+
+        tfoot{
+            font-style: italic;
+            text-align: center;
+        }
+
+        table td,  table th {
+            border: 1px solid #ccc;
+            padding: 5px;
+            text-align: left;
+        }
+        body{
+            font-family: sans-serif;
+        }
+
+        table caption{
+            
+        }
+        caption{
+            caption-side: bottom;
+            font-size: 12px;
+            text-align: right;
+            font-style: italic;
+            margin: 5px 0;
+        }
+
+        .responsive-table{
+            max-width: 100%;
+            overflow-x: auto;
+        }
+
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+    <div class="responsive-table">
+        <table>
+            <caption>Uma descrição para tabela</caption>
+            <thead>
+                <tr>
+                    <th>Título 1</th>
+                    <th>Título 2</th>
+                    <th>Título 3</th>
+                </tr>           
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Corpo1</td>
+                    <td>Corpo2</td>
+                    <td>Corpo3</td>
+                </tr>
+                <tr>
+                    <td>Corpo1</td>
+                    <td>Corpo2</td>
+                    <td>Corpo3</td>
+                </tr>
+
+                <tr>
+                    <td>Corpo1</td>
+                    <td>Corpo2</td>
+                    <td>Corpo3</td>
+                </tr>
+
+                <tfoot>
+                    <tr>
+                        <td colspan="2" rowspan="2"></td>
+                        <td>Total:</td>
+                    </tr>
+                            
+                    <tr>                    
+                        <td>R$213</td>
+                    </tr>
+                </tfoot>
+
+
+            </tbody>
+        </table>
+    </div>
+
+</body>
+</html>
