@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior:smooth;
+}
+
+.pai{
+    width: 50rem; /*500px*/
+    height: 100vh;
+    background-color: yellow;
+    overflow: hidden;
+}
+
+.pai > div {
+    width: 50%;
+    height: 50rem;
+    background-color: blue;
+}
+.color-one{
+    background-color: turquoise;
+}
+
+.color-two{
+    background-color: violet;
+}
+ul{
+    height: 100px;
+    overflow: auto;
+}
+
+ul li.sticky{
+    position: sticky;
+    background-color: gray;
+    top:0;
+}

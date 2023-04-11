@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.heading:hover {
+    background-color: green;
+}
+
+a{
+    color: aqua;
+}
+
+a:link{
+    color: blueviolet;
+}
+a:visited{
+    color: red;
+}
+a:hover{
+    color: white;
+    text-decoration: none;
+    background-color: brown;
+}
+
+input:checked + p{
+    background-color: red;
+}
+
+.pai .lista li:last-child{
+    background-color: red;
+}
